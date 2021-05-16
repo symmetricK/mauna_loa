@@ -15,6 +15,6 @@ def plot_df(df):
     INPUT: Pandas DataFrame
     OUTPUT: handle to plot axis
     '''
-    df_plot=plt.plot(df[0],df[1])
-    return df_plot
+    plt.plot(df)
+
     
