@@ -16,5 +16,6 @@ def plot_df(df):
     OUTPUT: handle to plot axis
     '''
     plt.plot(df)
-
+    ax=plt.gca()
+    return ax
     
